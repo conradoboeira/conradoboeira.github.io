@@ -8,6 +8,8 @@ author_profile: true
 {% include base_path %}
 
 <p>Here you'll find detailed writeups of Capture The Flag challenges I've solved. These include analysis, solutions, and techniques used.</p>
+
+{% for post in site.portfolio %}
   {% include archive-single.html %}
 {% endfor %}
 
